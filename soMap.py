@@ -10,7 +10,6 @@ from io import BytesIO
 
 st.set_page_config(layout="wide")
 
-dfK = pd.read_csv(r'config.csv', sep=";")
 apiSo = st.secrets["apiSo"]
 
 url = 'https://api.sorare.com/graphql'
